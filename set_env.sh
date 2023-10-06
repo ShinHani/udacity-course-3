@@ -1,5 +1,5 @@
 # This file is used for convenience of local development.
-# DO NOT STORE YOUR CREDENTIALS INTO GIT 
+# DO NOT STORE YOUR CREDENTIALS INTO GIT
 export POSTGRES_USERNAME=hungnq45
 export POSTGRES_PASSWORD=mypassword
 export POSTGRES_HOST=hani.cqsuvt5mjjkd.us-east-1.rds.amazonaws.com
