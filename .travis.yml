@@ -33,4 +33,3 @@ after-success:
   - docker push shincnielts/udagram-api-feed:v1
   - docker push shincnielts/udagram-api-user:v1
   - docker push shincnielts/udagram-frontend:local
-  
