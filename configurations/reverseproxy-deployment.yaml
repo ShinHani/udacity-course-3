@@ -16,7 +16,7 @@ spec:
       name: api-user
     spec:
       containers:
-      - image: shincnielts/reverseproxy:v1
+      - image: shincnielts/udagram-reverseproxy:v1
         name: reverseproxy
         imagePullPolicy: Always
         ports:
