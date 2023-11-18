@@ -13,12 +13,14 @@ spec:
     metadata:
       labels:
         service: reverseproxy
-      name: backend-user
+      name: api-user
     spec:
       containers:
       - image: shincnielts/reverseproxy:v1
         name: reverseproxy
         imagePullPolicy: Always
+        ports:
+        - containerPort: 80
         resources:
           requests:
             memory: "64Mi"
@@ -26,6 +28,4 @@ spec:
           limits:
             memory: "1024Mi"
             cpu: "500m"
-        ports:
-        - containerPort: 80
       restartPolicy: Always
