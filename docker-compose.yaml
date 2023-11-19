@@ -35,6 +35,6 @@ services:
       JWT_SECRET: $JWT_SECRET
       URL: "http://localhost:8100"
   frontend:
-    image: shincnielts/udagram-frontend:v4
+    image: udagram-frontend:latest
     ports:
       - "8100:80"
