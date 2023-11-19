@@ -13,10 +13,10 @@ spec:
     metadata:
       labels:
         service: reverseproxy
-      name: api-user
+      name: reverseproxy
     spec:
       containers:
-      - image: shincnielts/udagram-reverseproxy:v1
+      - image: shincnielts/udagram-reverseproxy:latest
         name: reverseproxy
         imagePullPolicy: Always
         resources:
