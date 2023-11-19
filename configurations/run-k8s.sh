@@ -16,7 +16,7 @@ kubectl apply -f backend-user-service.yaml
 kubectl apply -f reverseproxy-deployment.yaml
 kubectl apply -f reverseproxy-service.yaml
 
-kubectl expose deployment reverseproxy --type=LoadBalancer --name=reverseproxy-ep --port=8080
+kubectl expose deployment reverseproxy --type=LoadBalancer --name=publicreverseproxy --port=8080
 
 kubectl get deployment
 kubectl get services
